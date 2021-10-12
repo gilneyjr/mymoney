@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:mymoney/screens/home.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(MaterialApp(
+    title: "MyMoney",
+    home: HomeScreen(),
+  ));
 }
 
 class MyApp extends StatelessWidget {
